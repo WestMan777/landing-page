@@ -2,4 +2,254 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header-container {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    height: 70px;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 22px;
+}
+
+.links-container {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 150;
+    display: flex;
+    gap: 10px;
+}
+
+.container {
+    height: 300px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: stretch;
+}
+
+.page-info-container {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-left-container {
+    display: flex;
+    flex: 1;
+    padding: 35px;
+}
+
+.page-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.page-description-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0px;
+    gap: 10px;
+}
+
+.description-title {
+    font-size: 48px;
+}
+
+.sign-up-button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: 500;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.page-img {
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 35px;
+}
+
+.page-description {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.page-mid-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700px;
+    display: flex;
+    padding: 10px;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+}
+
+.photo-section {
+    display: flex;
+}
+
+.photo-section-space {
+    flex: .5;
+}
+
+.photo-grid-container {
+    display: flex;
+    flex: 3;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.photo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 1 0 auto;
+    padding: 10px;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.img-description {
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+
+.page-end-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section {
+    display: flex;
+}
+
+.quote-section-space {
+    flex: .5;
+}
+
+.quote-container {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    gap: 15px;
+
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.page-quote-container {
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.quote-author-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote-author {
+    font-weight: 600;
+    margin-right: 10%;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.action-box {
+    display: flex;
+    justify-content: center;
+}
+
+.action-space {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: stretch;
+}
+
+.call-to-action {
+    height: 100px;
+    background-color: #3882F6;    
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex: 2.5 3 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action-title {
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: 550;
+}
+
+.call-to-action-text {
+    color: #E5E7EB;
+    font-size: 15px;
+}
+
+.call-to-action-side .sign-up-button {
+    border: 2px solid #E5E7EB;
+}
+
+.page-bottom {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
 }
